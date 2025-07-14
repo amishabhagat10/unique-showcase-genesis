@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Code2, Palette, Rocket, Users } from 'lucide-react';
+import profileImg from '../assets/profile.jpg'; // ✅ Import your image
 
 const About = () => {
   const highlights = [
@@ -82,8 +83,12 @@ const About = () => {
               <div className="w-80 h-80 mx-auto rounded-lg bg-gradient-hero p-1 hover-glow overflow-hidden">
                 <div className="w-full h-full rounded-lg bg-muted flex items-center justify-center">
                   <div className="text-center">
-                    <div className="text-6xl mb-4">👩‍💻</div>
-                    <p className="text-sm text-muted-foreground">Amisha Bhagat</p>
+                    <img
+                      src={profileImg}
+                      alt="Amisha Bhagat"
+                      className="w-40 h-40 rounded-full object-cover border-4 border-primary shadow-md mx-auto"
+                    />
+                    <p className="text-sm text-muted-foreground mt-4">Amisha Bhagat</p>
                   </div>
                 </div>
               </div>

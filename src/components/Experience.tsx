@@ -9,8 +9,8 @@ const Experience = () => {
       type: 'work',
       title: 'Web Developer Intern',
       company: 'ApexPlanet Software Pvt Ltd',
-      location: 'Kolkata, WB',
-      period: '2024 - Present',
+      location: 'Remote',
+      period: 'June 2025 - Present',
       description: 'Currently working as a web developer intern, building modern web applications and gaining hands-on experience with industry-standard practices.',
       achievements: [
         'Developing responsive web applications',
@@ -22,10 +22,10 @@ const Experience = () => {
     },
     {
       type: 'work',
-      title: 'Web Development Intern (Advanced)',
+      title: 'Web Development Intern',
       company: 'VaultofCode',
       location: 'Remote',
-      period: '2023 - 2024',
+      period: 'June 2025 - July 2025',
       description: 'Completed an advanced web development internship focusing on modern frontend technologies and development workflows.',
       achievements: [
         'Built multiple client projects',
@@ -40,7 +40,7 @@ const Experience = () => {
       title: 'Data Analysis Intern',
       company: 'Codeveda',
       location: 'Remote',
-      period: '2023',
+      period: 'April 2025 - May 2025',
       description: 'Focused on data analysis and visualization, working with various datasets to extract meaningful insights and create compelling visualizations.',
       achievements: [
         'Analyzed complex datasets',
@@ -74,6 +74,7 @@ const Experience = () => {
     'Introduction to HTML, CSS, & JavaScript – IBM (Coursera)',
     'Information Theory – The Chinese University of Hong Kong (Coursera)',
     'Advanced System Security Topics – University of Colorado System (Coursera)',
+    'Programming in Java – NPTEL Certification',
     'Programming in Python – NPTEL Certification',
     'Data Analytics Foundations – LinkedIn Learning'
   ];
