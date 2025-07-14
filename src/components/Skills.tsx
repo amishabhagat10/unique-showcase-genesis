@@ -22,30 +22,30 @@ const Skills = () => {
       skills: [
         { name: "Node.js", level: 90 },
         { name: "Express.js", level: 85 },
-        { name: "Python", level: 80 },
-        { name: "PostgreSQL", level: 85 },
+        { name: "Python", level: 85 },
+        { name: "PostgreSQL", level: 80 },
         { name: "MongoDB", level: 80 },
-        { name: "GraphQL", level: 75 }
+        { name: "Java", level: 80 }
       ]
     },
     {
-      title: "Tools & Technologies",
+      title: "Tools & AI/ML",
       icon: "🛠️",
       skills: [
-        { name: "Git/GitHub", level: 95 },
-        { name: "Docker", level: 80 },
-        { name: "AWS", level: 75 },
+        { name: "Git", level: 95 },
         { name: "Figma", level: 85 },
-        { name: "Webpack", level: 80 },
-        { name: "Jest", level: 85 }
+        { name: "Google Colab", level: 90 },
+        { name: "Canva", level: 80 },
+        { name: "Machine Learning", level: 75 },
+        { name: "Artificial Intelligence", level: 70 }
       ]
     }
   ];
 
   const technologies = [
     "React", "TypeScript", "Node.js", "Next.js", "Express.js", "PostgreSQL",
-    "MongoDB", "Tailwind CSS", "GraphQL", "Docker", "AWS", "Git", "Figma",
-    "Jest", "Python", "JavaScript", "HTML5", "CSS3", "Webpack", "Redux"
+    "MongoDB", "Tailwind CSS", "Git", "Figma", "Python", "JavaScript", 
+    "HTML5", "CSS3", "Webpack", "Java", "C", "Machine Learning", "Artificial Intelligence", "Google Colab", "Canva"
   ];
 
   return (

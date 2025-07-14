@@ -20,19 +20,13 @@ const Contact = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'john.smith@email.com',
-      href: 'mailto:john.smith@email.com'
-    },
-    {
-      icon: Phone,
-      label: 'Phone',
-      value: '+1 (555) 123-4567',
-      href: 'tel:+15551234567'
+      value: 'amishabhagat2005@gmail.com',
+      href: 'mailto:amishabhagat2005@gmail.com'
     },
     {
       icon: MapPin,
       label: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Kolkata, West Bengal',
       href: '#'
     }
   ];
@@ -41,20 +35,14 @@ const Contact = () => {
     {
       icon: Github,
       label: 'GitHub',
-      href: 'https://github.com',
+      href: 'https://github.com/amishabhagat10',
       color: 'hover:text-primary'
     },
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      href: 'https://linkedin.com',
+      href: 'https://www.linkedin.com/in/amisha-bhagat-5094b628a',
       color: 'hover:text-blue-500'
-    },
-    {
-      icon: Twitter,
-      label: 'Twitter',
-      href: 'https://twitter.com',
-      color: 'hover:text-blue-400'
     }
   ];
 

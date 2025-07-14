@@ -19,9 +19,9 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-    { icon: Mail, href: 'mailto:john.smith@email.com', label: 'Email' }
+    { icon: Github, href: 'https://github.com/amishabhagat10', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/amisha-bhagat-5094b628a', label: 'LinkedIn' },
+    { icon: Mail, href: 'mailto:amishabhagat2005@gmail.com', label: 'Email' }
   ];
 
   const scrollToSection = (href: string) => {
@@ -47,9 +47,9 @@ const Footer = () => {
           {/* Brand and description */}
           <div className="md:col-span-2">
             <div className="mb-6">
-              <h3 className="text-2xl font-bold gradient-text mb-3">John Smith</h3>
+              <h3 className="text-2xl font-bold gradient-text mb-3">Amisha Bhagat</h3>
               <p className="text-muted-foreground leading-relaxed max-w-md">
-                Full Stack Developer passionate about creating exceptional digital experiences. 
+                Web Developer & AI/ML enthusiast passionate about creating exceptional digital experiences. 
                 Always learning, always building, always innovating.
               </p>
             </div>
@@ -92,9 +92,8 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold text-foreground mb-4">Get in Touch</h4>
             <div className="space-y-2 text-sm text-muted-foreground">
-              <p>San Francisco, CA</p>
-              <p>john.smith@email.com</p>
-              <p>+1 (555) 123-4567</p>
+              <p>Kolkata, West Bengal</p>
+              <p>amishabhagat2005@gmail.com</p>
             </div>
             
             <div className="mt-4">
@@ -114,7 +113,7 @@ const Footer = () => {
         <div className="border-t border-border mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center text-sm text-muted-foreground mb-4 md:mb-0">
-              <span>© {currentYear} John Smith. Made with</span>
+              <span>© 2025 Amisha Bhagat. Made with</span>
               <Heart className="mx-1 text-red-500" size={14} fill="currentColor" />
               <span>and lots of ☕</span>
             </div>

@@ -10,79 +10,79 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with real-time inventory management, payment processing, and admin dashboard. Built with modern technologies for optimal performance.",
-      image: "🛒",
+      title: "Shaank - Mood-Based Music",
+      description: "Your mood-based music companion. Pick a feeling and get a curated Spotify playlist with ambient sounds to match. One tap, one vibe, instant immersion.",
+      image: "🎧",
       category: "Full Stack",
-      technologies: ["React", "Node.js", "PostgreSQL", "Stripe", "AWS"],
-      features: ["User Authentication", "Payment Gateway", "Admin Panel", "Real-time Updates"],
-      githubUrl: "#",
+      technologies: ["React", "Node.js", "Spotify API", "Express.js"],
+      features: ["Mood Detection", "Spotify Integration", "Ambient Sounds", "Curated Playlists"],
+      githubUrl: "https://github.com/amishabhagat10",
       liveUrl: "#",
       status: "Completed"
     },
     {
       id: 2,
-      title: "Task Management App",
-      description: "A collaborative project management tool with real-time updates, team messaging, and advanced analytics. Designed for modern teams and agile workflows.",
-      image: "📋",
+      title: "WanderScape - Visit Tokyo",
+      description: "WanderScape is all about travel that feels. From hidden gems to iconic sights, we craft curated tours and insider tips that bring your dream destinations closer.",
+      image: "🏮",
       category: "Frontend",
-      technologies: ["React", "TypeScript", "Tailwind", "Firebase"],
-      features: ["Real-time Collaboration", "Team Chat", "Analytics", "Mobile App"],
-      githubUrl: "#",
+      technologies: ["React", "TypeScript", "Tailwind CSS", "Maps API"],
+      features: ["Interactive Maps", "Travel Guides", "Local Insights", "Trip Planning"],
+      githubUrl: "https://github.com/amishabhagat10",
       liveUrl: "#",
       status: "Completed"
     },
     {
       id: 3,
-      title: "Weather Analytics Dashboard",
-      description: "An advanced weather monitoring system with predictive analytics, interactive maps, and comprehensive reporting for agricultural and business use.",
-      image: "🌤️",
-      category: "Data Visualization",
-      technologies: ["React", "D3.js", "Python", "FastAPI"],
-      features: ["Predictive Analytics", "Interactive Maps", "API Integration", "Export Reports"],
-      githubUrl: "#",
+      title: "Krazy Cakes - Recipe App",
+      description: "A fun, interactive recipe app that shows ingredients, guides you step-by-step, and keeps you motivated while you bake.",
+      image: "🧁",
+      category: "Frontend",
+      technologies: ["React", "JavaScript", "CSS3", "Recipe API"],
+      features: ["Step-by-step Guides", "Ingredient Lists", "Interactive UI", "Recipe Search"],
+      githubUrl: "https://github.com/amishabhagat10",
       liveUrl: "#",
       status: "Completed"
     },
     {
       id: 4,
-      title: "Social Media Platform",
-      description: "A modern social networking platform with advanced features including stories, live streaming, and AI-powered content recommendations.",
-      image: "📱",
+      title: "Seasana - Calm Begins Here",
+      description: "Seasana offers guided meditations and wellness tools to help you flow through life with calm, clarity, and ease.",
+      image: "🌊",
       category: "Full Stack",
-      technologies: ["Next.js", "GraphQL", "MongoDB", "Redis"],
-      features: ["Live Streaming", "AI Recommendations", "Stories", "Messaging"],
-      githubUrl: "#",
+      technologies: ["React", "Node.js", "MongoDB", "Express.js"],
+      features: ["Guided Meditations", "Wellness Tools", "Progress Tracking", "User Profiles"],
+      githubUrl: "https://github.com/amishabhagat10",
       liveUrl: "#",
-      status: "In Progress"
+      status: "Completed"
     },
     {
       id: 5,
-      title: "AI-Powered Portfolio",
-      description: "An intelligent portfolio website that adapts content based on visitor preferences and includes an AI chatbot for interactive experiences.",
-      image: "🤖",
+      title: "Florabot - ML Flower Classification",
+      description: "A machine learning project that classifies iris flowers by species using petal and sepal measurements from the classic Iris dataset.",
+      image: "🌸",
       category: "AI/ML",
-      technologies: ["React", "TensorFlow.js", "OpenAI", "Node.js"],
-      features: ["AI Chatbot", "Content Adaptation", "Voice Commands", "Analytics"],
-      githubUrl: "#",
+      technologies: ["Python", "Scikit-learn", "Pandas", "Machine Learning"],
+      features: ["Species Classification", "Data Visualization", "Model Training", "Accuracy Testing"],
+      githubUrl: "https://github.com/amishabhagat10",
       liveUrl: "#",
-      status: "In Progress"
+      status: "Completed"
     },
     {
       id: 6,
-      title: "Blockchain Voting System",
-      description: "A secure and transparent voting platform built on blockchain technology ensuring vote integrity and complete transparency.",
-      image: "🗳️",
-      category: "Blockchain",
-      technologies: ["Solidity", "Web3.js", "React", "Ethereum"],
-      features: ["Blockchain Security", "Transparent Results", "Mobile Voting", "Real-time Results"],
-      githubUrl: "#",
+      title: "Stock Price Analysis",
+      description: "Analyzed stock price data by cleaning, structuring, and visualizing it to uncover key trends and insights.",
+      image: "📈",
+      category: "AI/ML",
+      technologies: ["Python", "Pandas", "Matplotlib", "Data Analysis"],
+      features: ["Data Cleaning", "Trend Analysis", "Data Visualization", "Statistical Insights"],
+      githubUrl: "https://github.com/amishabhagat10",
       liveUrl: "#",
       status: "Completed"
     }
   ];
 
-  const categories = ['All', 'Full Stack', 'Frontend', 'Data Visualization', 'AI/ML', 'Blockchain'];
+  const categories = ['All', 'Frontend', 'Full Stack', 'AI/ML'];
 
   const filteredProjects = filter === 'All' 
     ? projects 

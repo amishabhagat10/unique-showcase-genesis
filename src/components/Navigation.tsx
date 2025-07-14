@@ -39,7 +39,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <span className="text-2xl font-bold gradient-text">Portfolio</span>
+            <span className="text-2xl font-bold gradient-text">Amisha Bhagat</span>
           </div>
 
           {/* Desktop Navigation */}

@@ -7,88 +7,75 @@ const Experience = () => {
   const experiences = [
     {
       type: 'work',
-      title: 'Senior Full Stack Developer',
-      company: 'TechCorp Solutions',
-      location: 'San Francisco, CA',
-      period: '2022 - Present',
-      description: 'Led development of scalable web applications serving 100K+ users. Implemented CI/CD pipelines and mentored junior developers.',
+      title: 'Web Developer Intern',
+      company: 'ApexPlanet Software Pvt Ltd',
+      location: 'Kolkata, WB',
+      period: '2024 - Present',
+      description: 'Currently working as a web developer intern, building modern web applications and gaining hands-on experience with industry-standard practices.',
       achievements: [
-        'Increased application performance by 40%',
-        'Led team of 5 developers',
-        'Implemented microservices architecture',
-        'Reduced deployment time by 60%'
+        'Developing responsive web applications',
+        'Learning industry best practices',
+        'Collaborating with development teams',
+        'Working on real-world projects'
       ],
-      technologies: ['React', 'Node.js', 'AWS', 'Docker', 'PostgreSQL']
+      technologies: ['React', 'JavaScript', 'HTML5', 'CSS3', 'Git']
     },
     {
       type: 'work',
-      title: 'Full Stack Developer',
-      company: 'Digital Innovations Inc.',
-      location: 'Austin, TX',
-      period: '2021 - 2022',
-      description: 'Developed and maintained multiple client projects using modern web technologies. Collaborated with design teams to implement pixel-perfect interfaces.',
-      achievements: [
-        'Delivered 15+ client projects',
-        'Improved code quality with testing',
-        'Reduced bug reports by 50%',
-        'Implemented responsive designs'
-      ],
-      technologies: ['React', 'Vue.js', 'Express.js', 'MongoDB', 'TypeScript']
-    },
-    {
-      type: 'work',
-      title: 'Frontend Developer',
-      company: 'StartupXYZ',
+      title: 'Web Development Intern (Advanced)',
+      company: 'VaultofCode',
       location: 'Remote',
-      period: '2020 - 2021',
-      description: 'Built responsive web applications and collaborated with UX designers to create engaging user experiences.',
+      period: '2023 - 2024',
+      description: 'Completed an advanced web development internship focusing on modern frontend technologies and development workflows.',
       achievements: [
-        'Built 3 major web applications',
-        'Increased user engagement by 30%',
-        'Implemented modern UI frameworks',
-        'Optimized for mobile devices'
+        'Built multiple client projects',
+        'Mastered React and modern frameworks',
+        'Implemented responsive designs',
+        'Gained expertise in version control'
       ],
-      technologies: ['React', 'JavaScript', 'Sass', 'REST APIs', 'Git']
+      technologies: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Git']
+    },
+    {
+      type: 'work',
+      title: 'Data Analysis Intern',
+      company: 'Codeveda',
+      location: 'Remote',
+      period: '2023',
+      description: 'Focused on data analysis and visualization, working with various datasets to extract meaningful insights and create compelling visualizations.',
+      achievements: [
+        'Analyzed complex datasets',
+        'Created data visualizations',
+        'Implemented statistical models',
+        'Generated actionable insights'
+      ],
+      technologies: ['Python', 'Pandas', 'Matplotlib', 'Data Analysis', 'Machine Learning']
     }
   ];
 
   const education = [
     {
       type: 'education',
-      degree: 'Bachelor of Science in Computer Science',
-      institution: 'University of Technology',
-      location: 'California, USA',
-      period: '2016 - 2020',
-      description: 'Graduated Magna Cum Laude with focus on software engineering and web development.',
+      degree: 'B.Tech in Computer Science and Technology',
+      institution: 'University of Engineering and Management, Kolkata',
+      location: 'Kolkata, West Bengal',
+      period: '2023 - 2027',
+      description: 'Currently pursuing B.Tech with a strong focus on software development, algorithms, and emerging technologies.',
       achievements: [
-        'GPA: 3.8/4.0',
-        'Dean\'s List for 6 semesters',
-        'Computer Science Society President',
-        'Winner of Hackathon 2019'
-      ]
-    },
-    {
-      type: 'education',
-      degree: 'Full Stack Web Development Bootcamp',
-      institution: 'CodeAcademy Pro',
-      location: 'Online',
-      period: '2020',
-      description: 'Intensive 6-month program covering modern web development technologies and best practices.',
-      achievements: [
-        'Top 5% of class',
-        'Completed 10+ real-world projects',
-        'Mentored 15+ students',
-        'Certificate of Excellence'
+        'Current CGPA: 8.5/10.0',
+        'Active member of technical societies',
+        'Regular participant in coding competitions',
+        'Winner and finalist in multiple tech competitions'
       ]
     }
   ];
 
   const certifications = [
-    'AWS Certified Developer - Associate',
-    'Google Cloud Professional Developer',
-    'MongoDB Certified Developer',
-    'React Advanced Certification',
-    'Node.js Certified Developer'
+    'Member of Geeks For Geeks Student Chapter UEMK',
+    'Introduction to HTML, CSS, & JavaScript – IBM (Coursera)',
+    'Information Theory – The Chinese University of Hong Kong (Coursera)',
+    'Advanced System Security Topics – University of Colorado System (Coursera)',
+    'Programming in Python – NPTEL Certification',
+    'Data Analytics Foundations – LinkedIn Learning'
   ];
 
   return (

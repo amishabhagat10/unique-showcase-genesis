@@ -27,10 +27,10 @@ const About = () => {
   ];
 
   const stats = [
-    { number: "50+", label: "Projects Completed" },
+    { number: "10+", label: "Projects Completed" },
     { number: "3+", label: "Years Experience" },
     { number: "15+", label: "Technologies" },
-    { number: "100%", label: "Client Satisfaction" }
+    { number: "8.5", label: "CGPA" }
   ];
 
   return (
@@ -49,20 +49,19 @@ const About = () => {
           {/* About content */}
           <div className="space-y-6">
             <div className="space-y-4">
-              <h3 className="text-2xl font-semibold text-primary">Hello! I'm John Smith</h3>
+              <h3 className="text-2xl font-semibold text-primary">Hello! I'm Amisha Bhagat</h3>
               <p className="text-muted-foreground leading-relaxed">
-                I'm a passionate Full Stack Developer with over 3 years of experience in creating 
-                exceptional digital experiences. My journey started with a curiosity about how websites work, 
-                and it has evolved into a deep love for crafting clean, efficient, and user-friendly applications.
+                I'm a B.Tech Computer Science student at UEMK with a strong foundation in frontend development, Python, and Java. 
+                I love building clean, interactive, and user-focused web applications while also diving deep into problem-solving and backend logic.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                I specialize in modern web technologies including React, Node.js, TypeScript, and cloud platforms. 
-                My approach combines technical expertise with creative problem-solving to deliver solutions that 
-                not only meet requirements but exceed expectations.
+                As a Python and Java developer, I've worked on a variety of projects that combine my understanding of core programming concepts with real-world application. 
+                My interest in AI and Machine Learning continues to grow as I explore how intelligent systems can make life smarter and easier.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, 
-                or sharing knowledge with the developer community through blogs and workshops.
+                I've been a winner and finalist in multiple coding and tech competitions at my college, which has helped me sharpen my skills under pressure, 
+                collaborate with others, and continuously push my limits. I'm passionate about learning new technologies, experimenting with new ideas, 
+                and turning complex challenges into creative solutions.
               </p>
             </div>
 
@@ -80,11 +79,11 @@ const About = () => {
           {/* Profile image and highlights */}
           <div className="space-y-8">
             <div className="relative">
-              <div className="w-80 h-80 mx-auto rounded-lg bg-gradient-hero p-1 hover-glow">
+              <div className="w-80 h-80 mx-auto rounded-lg bg-gradient-hero p-1 hover-glow overflow-hidden">
                 <div className="w-full h-full rounded-lg bg-muted flex items-center justify-center">
                   <div className="text-center">
-                    <div className="text-6xl mb-4">👨‍💻</div>
-                    <p className="text-sm text-muted-foreground">Your Photo Here</p>
+                    <div className="text-6xl mb-4">👩‍💻</div>
+                    <p className="text-sm text-muted-foreground">Amisha Bhagat</p>
                   </div>
                 </div>
               </div>

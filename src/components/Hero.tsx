@@ -25,7 +25,7 @@ const Hero = () => {
           <div className="mb-8 fade-in">
             <div className="w-32 h-32 mx-auto rounded-full bg-gradient-hero p-1 pulse-glow">
               <div className="w-full h-full rounded-full bg-muted flex items-center justify-center text-6xl font-bold text-primary">
-                JS
+                AB
               </div>
             </div>
           </div>
@@ -33,14 +33,14 @@ const Hero = () => {
           {/* Main heading */}
           <div className="slide-in-bottom">
             <h1 className="text-5xl md:text-7xl font-bold mb-6">
-              Hi, I'm <span className="gradient-text">John Smith</span>
+              Hi, I'm <span className="gradient-text">Amisha Bhagat</span>
             </h1>
             <div className="text-xl md:text-2xl text-muted-foreground mb-4">
-              <span className="typing-animation">Full Stack Developer & UI/UX Designer</span>
+              <span className="typing-animation">Web Developer & AI/ML Enthusiast</span>
             </div>
             <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
               Passionate about creating exceptional digital experiences through innovative web solutions. 
-              I specialize in React, Node.js, and modern web technologies to bring ideas to life.
+              I specialize in React, Node.js, and modern web technologies to bring ideas to life and write about AI/ML field too.
             </p>
           </div>
 
@@ -65,19 +65,25 @@ const Hero = () => {
 
           {/* Social links */}
           <div className="slide-in-bottom flex justify-center space-x-6 mb-12" style={{ animationDelay: '0.4s' }}>
-            <Button variant="ghost" size="lg" className="text-muted-foreground hover:text-primary hover-glow">
-              <Github size={24} />
-            </Button>
-            <Button variant="ghost" size="lg" className="text-muted-foreground hover:text-primary hover-glow">
-              <Linkedin size={24} />
-            </Button>
-            <Button variant="ghost" size="lg" className="text-muted-foreground hover:text-primary hover-glow">
-              <Mail size={24} />
-            </Button>
+            <a href="https://github.com/amishabhagat10" target="_blank" rel="noopener noreferrer">
+              <Button variant="ghost" size="lg" className="text-muted-foreground hover:text-primary hover-glow">
+                <Github size={24} />
+              </Button>
+            </a>
+            <a href="https://www.linkedin.com/in/amisha-bhagat-5094b628a" target="_blank" rel="noopener noreferrer">
+              <Button variant="ghost" size="lg" className="text-muted-foreground hover:text-primary hover-glow">
+                <Linkedin size={24} />
+              </Button>
+            </a>
+            <a href="mailto:amishabhagat2005@gmail.com">
+              <Button variant="ghost" size="lg" className="text-muted-foreground hover:text-primary hover-glow">
+                <Mail size={24} />
+              </Button>
+            </a>
           </div>
 
           {/* Scroll indicator */}
-          <div className="fade-in absolute bottom-8 left-1/2 transform -translate-x-1/2" style={{ animationDelay: '1s' }}>
+          <div className="fade-in absolute bottom-20 left-1/2 transform -translate-x-1/2" style={{ animationDelay: '1s' }}>
             <button 
               onClick={() => scrollToSection('#about')}
               className="flex flex-col items-center text-muted-foreground hover:text-primary transition-colors group"
