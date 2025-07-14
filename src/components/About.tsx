@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Code2, Palette, Rocket, Users } from 'lucide-react';
-import profileImg from '../assets/profile.jpg'; // ✅ Import your image
+import profileImg from '../assets/profile.jpg'; 
 
 const About = () => {
   const highlights = [
